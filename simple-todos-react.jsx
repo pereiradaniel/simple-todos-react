@@ -2,7 +2,7 @@ Tasks = new Mongo.Collection("tasks");
 
 if (Meteor.isClient) {
 
-	Accounts.uiconfig({
+	Accounts.ui.config({
 		passwordSignupFields: "USERNAME_ONLY"
 	});
 
